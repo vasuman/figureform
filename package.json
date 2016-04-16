@@ -1,0 +1,40 @@
+{
+  "name": "figureform",
+  "version": "0.0.0",
+  "description": "Shapeshifting game",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server -w -d --host=''",
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasuman/figureform.git"
+  },
+  "keywords": [
+    "game",
+    "shapeshift"
+  ],
+  "author": "Vasuman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasuman/figureform/issues"
+  },
+  "homepage": "https://github.com/vasuman/figureform#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.8.0",
+    "eslint-config-google": "^0.5.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.7.5",
+    "hyperscript": "^1.4.7",
+    "webgame-lib": "vasuman/webgame-lib"
+  }
+}
